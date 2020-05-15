@@ -1,0 +1,15 @@
+ze_pdfclass.prg
+
+-w3
+-es2
+-m
+-n
+-beep
+-q
+
+-o${hb_name}
+
+pdfclass.hbc
+
+-hblib
+-hbx=${hb_name}
