@@ -1,8 +1,0 @@
-#
-# $Id$
-#
-
-incpaths=include
-libpaths=lib
-
-libs=rddleto
