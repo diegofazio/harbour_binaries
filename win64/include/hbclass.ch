@@ -236,7 +236,7 @@ DECLARE HBClass ;
              [ <static: STATIC> ] [ FUNCTION <FuncName> ] => ;
    _HB_CLASS <ClassName> <FuncName> ;;
    <static> function __HB_CLS_OPT( [<FuncName>,] <ClassName> ) ( HB_CLS_PARAM_LIST ) ;;
-      STATIC s_oClass ;;
+      thread STATIC s_oClass ;;
       LOCAL nScope, oClass, oInstance ;;
       IF s_oClass == NIL .AND. __clsLockDef( @s_oClass ) ;;
          BEGIN SEQUENCE ;;
