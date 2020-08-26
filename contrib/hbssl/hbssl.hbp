@@ -1,10 +1,11 @@
+
 # Keep them at top
--depimplibs=openssl:../out32dll/libcrypto.dll
--depimplibs=openssl:../out32dll/libssl.dll
--depimplibs=openssl:../dll/libcrypto.dll
--depimplibs=openssl:../dll/libssl.dll
--depimplibs=openssl:../libcrypto.dll
--depimplibs=openssl:../libssl.dll
+-depimplibs=openssl:../out32dll/libeay32.dll
+-depimplibs=openssl:../out32dll/ssleay32.dll
+-depimplibs=openssl:../dll/libeay32.dll
+-depimplibs=openssl:../dll/ssleay32.dll
+-depimplibs=openssl:../libeay32.dll
+-depimplibs=openssl:../ssleay32.dll
 -depimplibs=openssl:../bin/libcrypto-1_1.dll
 -depimplibs=openssl:../bin/libssl-1_1.dll
 -depimplibs=openssl:../bin/libcrypto-1_1-x64.dll
