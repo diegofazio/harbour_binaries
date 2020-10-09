@@ -1,0 +1,1 @@
+copy this files into \xampp\apache\bin or \apache24\bin
