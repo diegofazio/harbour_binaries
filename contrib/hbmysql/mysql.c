@@ -161,7 +161,7 @@ HB_FUNC( MYSQL_REAL_CONNECT ) /* MYSQL * mysql_real_connect( MYSQL *, char * hos
 
 #if MYSQL_VERSION_ID > 32200
    MYSQL *      mysql;
-   unsigned int port  = ( unsigned int ) hb_parnidef( 4, MYSQL_PORT );
+   unsigned int port  = ( unsigned int ) hb_parnidef( 4, MARIADB_PORT );
    unsigned int flags = ( unsigned int ) hb_parnidef( 5, 0 );
 
    if( ( mysql = mysql_init( ( MYSQL * ) NULL ) ) != NULL )
